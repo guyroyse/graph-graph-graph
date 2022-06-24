@@ -1,0 +1,16 @@
+{
+  "name": "graph-graph-graph",
+  "version": "1.0.0",
+  "description": "Playing with Apollo, RedisGraph, and Node.js",
+  "type": "module",
+  "author": "Guy Royse <guy@guyroyse.com> (http://guy.dev/)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "apollo-server": "2.23.0",
+    "dataloader": "^2.1.0",
+    "dotenv": "^16.0.1",
+    "graphql": "15.5.0",
+    "redis": "^4.1.0"
+  }
+}

@@ -1,4 +1,5 @@
 import { querySingle, queryMany } from '../redis/redis.js'
+import City from './city.js';
 
 export default class State {
 
@@ -33,4 +34,7 @@ export default class State {
 
   get name() { return this._name }
   get abbreviation() { return this._abbreviation }
+  get cities() {
+    return City.fetchCitiesForState(this.abbreviation)
+  }
 }
